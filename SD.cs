@@ -15,6 +15,7 @@ namespace asprule1020.Utility
         public const string StatusForReview = "For Review";
         public const string StatusForApproval = "For Approval";
         public const string StatusForReapplication = "For Reapplication";
+        public const string StatusForUpdate = "For Update";
         public const string StatusApproved = "Approved";
         public const string StatusReapplication = "Reapplication";
 
