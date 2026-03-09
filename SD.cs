@@ -18,6 +18,7 @@ namespace asprule1020.Utility
         public const string StatusForUpdate = "For Update";
         public const string StatusApproved = "Approved";
         public const string StatusReapplication = "Reapplication";
+        public const string StatusDuplicate = "Duplicate";
 
         public const string SessionCart = "SessionCart";
     }
