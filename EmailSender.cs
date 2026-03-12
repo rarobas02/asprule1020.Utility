@@ -11,28 +11,28 @@ namespace BulkyBook.Utility
     public class EmailSender : IEmailSender
     {
         // Implement the SendEmailAsync method from IEmailSender interface
-        /*public Task SendEmailAsync(string email, string subject, string htmlMessage)
+        public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
             //logic to send email
             return Task.CompletedTask;
-        }*/
+        }
 
-        public Task SendEmailAsync(string email, string subject, string htmlMessage)
+        /*public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
-            var client = new SmtpClient("smtp.hostinger.com", 587)
+            var client = new SmtpClient("HostClient URL", 587) // 587 smtp port number - default
             {
-                Credentials = new System.Net.NetworkCredential("noreply@rule1020.dole4a.com", "itDOLE4@rule1020"),
+                Credentials = new System.Net.NetworkCredential("SMTP EMAIL HERE", "SMTP PASSWORD HERE"),
                 EnableSsl = true
             };
             var mailMessage = new MailMessage
             {
-                From = new MailAddress("noreply@rule1020.dole4a.com"),
+                From = new MailAddress("SMTP EMAIL HERE"),
                 Subject = subject,
                 Body = htmlMessage,
                 IsBodyHtml = true
             };
             mailMessage.To.Add(email);
             return client.SendMailAsync(mailMessage);
-        }
+        }*/
     }
 }
