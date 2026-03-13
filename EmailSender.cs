@@ -10,7 +10,6 @@ namespace BulkyBook.Utility
 {
     public class EmailSender : IEmailSender
     {
-        // Implement the SendEmailAsync method from IEmailSender interface
         public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
             //logic to send email
