@@ -64,7 +64,7 @@ namespace asprule1020.Utility
                     "2F Grand Central Terminal, Lucena City, Quezon",
                     "(042) 785-0894",
                     "dole4a.quezon@gmail.com",
-                    "EDWIN T. HERNANDEZ",
+                    "CRISTINA H. BARAYANG",
                     "OIC Head, Quezon Provincial Office"),
 
                 _ => new ProvinceContactInfo(
