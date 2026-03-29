@@ -20,6 +20,6 @@ namespace asprule1020.Utility
         public const string StatusReapplication = "Reapplication";
         public const string StatusDuplicate = "Duplicate";
 
-        public const string SessionCart = "SessionCart";
+        public const string PendingCount = "SessionPendingCount";
     }
 }
